@@ -129,39 +129,38 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
 <nav>
   <a class="nav-brand" href="index.html"><em>Rowdy</em> Construction</a>
   <ul class="nav-links">
-    <li><a href="index.html" style="color:var(--acc);">Home</a></li>
+    <li><a href="index.html">Home</a></li>
     <li><a href="services.html">Services</a></li>
     <li><a href="gallery.html">Gallery</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="location.html">Location</a></li>
-    <li><a href="contact.html">Contact</a></li></ul>
+    <li><a href="contact.html" style="color:var(--acc);">Contact</a></li></ul>
 </nav>
 
-<section id="hero">
-  <div class="hero-img"></div>
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <h1 class="hero-title">Rowdy<span>Construction</span></h1>
-    <p class="hero-sub">New builds, renovations, concrete, roofing — built right the first time, every time.</p>
-    <div class="hero-cta">
-      <a href="#booking" class="btn-primary">Get a Quote</a>
-      <a href="#services" class="btn-outline">Our Services</a>
+<section id="booking" class="sec">
+  <div class="booking-layout">
+    <div class="booking-aside reveal">
+      <p class="sec-label">Schedule</p>
+      <h2 class="sec-title">Get a<br>Free Quote</h2>
+      <p style="font-size:14px;color:rgba(240,236,232,0.42);line-height:1.75;">Tell us about your project. We'll come out, assess the site, and get you a detailed quote.</p>
+      <div class="booking-photo">
+        <div class="booking-photo-label"><p>Based Outta</p><strong>Indiana · Licensed &amp; Insured</strong></div>
+      </div>
+    </div>
+    <div class="reveal d1">
+      <div class="form-grid">
+        <div class="field"><label>First Name</label><input type="text" placeholder="John"></div>
+        <div class="field"><label>Last Name</label><input type="text" placeholder="Smith"></div>
+        <div class="field"><label>Phone</label><input type="tel" placeholder="(765) 000-0000"></div>
+        <div class="field"><label>City</label><input type="text" placeholder="Marion, Muncie..."></div>
+        <div class="field"><label>Project Type</label><select><option value="">Select...</option><option>New Construction</option><option>Renovation</option><option>Concrete / Foundation</option><option>Roofing</option><option>Addition / Framing</option><option>Commercial Build-Out</option><option>Not Sure</option></select></div>
+        <div class="field"><label>Budget Range</label><select><option value="">Select...</option><option>Under $10K</option><option>$10K–$50K</option><option>$50K–$150K</option><option>$150K+</option><option>Not Sure</option></select></div>
+        <div class="field full"><label>Project Details</label><textarea placeholder="Describe your project, location, timeline, any existing plans..."></textarea></div>
+        <div class="field full"><button class="btn-primary" style="width:100%;text-align:center;border:none;" onclick="this.textContent='Request Sent ✓';this.style.background='#22c55e';setTimeout(()=>{this.textContent='Get a Quote';this.style.background=''},3000)">Get a Quote</button></div>
+      </div>
     </div>
   </div>
-  <div class="hero-badge">
-    <svg viewBox="0 0 150 150">
-      <defs><path id="cp" d="M75,75 m-55,0 a55,55 0 1,1 110,0 a55,55 0 1,1 -110,0"/></defs>
-      <text font-family="Barlow Condensed,sans-serif" font-size="10.5" font-weight="600" letter-spacing="3" fill="#f59e0b"><textPath href="#cp">INDIANA · CONSTRUCTION · </textPath></text>
-    </svg>
-    <span class="hero-badge-inner">RD</span>
-  </div>
-  <div class="scroll-hint">Scroll</div>
 </section>
-
-<div class="ticker-wrap"><div class="ticker-inner">
-  <span>New Construction</span><span class="sep">✦</span><span>Renovations</span><span class="sep">✦</span><span>Concrete Work</span><span class="sep">✦</span><span>Roofing</span><span class="sep">✦</span><span>Additions</span><span class="sep">✦</span><span>Commercial Build-Out</span><span class="sep">✦</span>
-  <span>New Construction</span><span class="sep">✦</span><span>Renovations</span><span class="sep">✦</span><span>Concrete Work</span><span class="sep">✦</span><span>Roofing</span><span class="sep">✦</span><span>Additions</span><span class="sep">✦</span><span>Commercial Build-Out</span><span class="sep">✦</span>
-</div></div>
 
 <footer>
   <div class="footer-top">
